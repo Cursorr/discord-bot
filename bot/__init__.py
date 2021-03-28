@@ -19,7 +19,7 @@ class BasicBot(bot.Bot):
             # Save default configuration
             self.config.write()
         else:
-            self.config = config.load_json("config.json")
+            self.config = config.load_json(conf_path)
 
         super().__init__(command_prefix=self.config.content["PREFIX"],
                          intents=discord.Intents.all())
