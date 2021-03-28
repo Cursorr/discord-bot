@@ -1,0 +1,8 @@
+{
+    "PREFIX": "!",
+    "TOKEN": "Your token here",
+    "JOIN_CHANNEL_ID": "Your join channel ID",
+    "COGS": [
+        "simple_cog"
+    ]
+}
